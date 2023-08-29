@@ -1,27 +1,162 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* background-color: black; */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.logo {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ul li {
+  color: #FFF;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration: none;
+  list-style: none;
+  display: inline;
+}
+
+.header {
+  background-image: url(../public/img/Rectangle\ 1.png);
+  height: 36rem;
+}
+
+.btn1 {
+  border-radius: 30px !important;
+}
+
+.myBtn {
+  border-radius: 30px;
+  width: 160px;
+  height: 48px;
+  flex-shrink: 0;
+  background-color: #2370C8;
+  border-style: none;
+  outline: none;
+  color: white;
+}
+
+.card-body1 {
+  border: 2px solid #2370C8;
+  padding: 2rem;
+}
+
+.card-body2 {
+  border: 3px solid #CFEAFF;
+  background: #E5F3FE;
+  padding: 2rem;
+}
+
+.about-pic {
+  width: 17rem;
+  height: 32rem;
+  flex-shrink: 0;
+  background: #E7E7E7;
+}
+
+.business-model {
+  background: #F2F9FF;
+  padding: 3rem;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+.inside {
+  border: 4px solid white;
+  padding: 1rem;
+
+}
+
+.portfolio {
+  width: 22rem;
+  height: 16rem;
+ 
+  background: #E7E7E7;
+}
+
+.price-card{
+  box-shadow: 0px 8px 48px 0px rgba(185, 215, 238, 0.40);
+}
+
+.client-card{
+  border: 1px solid #6AB0FF;
+background: rgba(55, 130, 215, 0.50);
+padding: 2rem;
+}
+
+.input-field{
+  width: fit-content;
+   border: 1.5px solid #2370C8;
+   outline: none;
+}
+.input-field input{
+  border: none;
+  outline: none;
+  padding: .2rem;
+}
+
+.input-span{
+  padding-left: .7rem;
+  padding-right: .7rem;
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+  cursor: pointer;
+background-color: #2370C8;
+outline: none;
+border: none;
+}
+.blog-card{
+  padding: 2rem;
+}
+
+.blog-btn{
+  border: none;
+  background: transparent;
+}
+
+.footer{
+  background: #e5f0fa;
+  
+}
+.footer1{
+  padding: 2rem;
+}
+
+.footer-circle{
+  width: 27px;
+height: 27px;
+flex-shrink: 0;
+background-color: #2370C8;
+border-radius: 50%;
+margin: .4rem;
+}
+
+.loader{
+  display: flex;
+  
+}
+
+.footer-circle1{
+  margin: .4rem;
+  width: 27px;
+  height: 27px;
+  flex-shrink: 0;
+  background-color: #ffffff;
+  border-radius: 50%;
+  border:1px solid #2370C8;
+}
+
+.footer ul li{
+  list-style: none;
+  color: rgb(77, 76, 76);
 }
